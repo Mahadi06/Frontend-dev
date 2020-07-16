@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: darkred;
+	font-size: 20px;
+	font-family: arial;
+	margin-left: 20px;
+}
+h1{
+	color: azure;
+}
+div{
+	padding: 8px;
+	margin: 5px 5px 5px 5px;
+	border: 2px solid skyblue;
+	float: left;
+	background: lightcoral;
+
+
+
+}
+
+
+span {
+	float: right;
+	padding: 5px;
+	border: 2px solid steelblue;
+	background: lightgreen;
+	font-family: Impact, Charcoal, sans-serif;
+	color: rebeccapurple;
+}
+p{
+	clear: right;
+	font-family: sans-serif;
+
+}
+
+@media (min-width: 992px) {
+			div {
+				width: 32%;
+
+
+			
+		}
+	}	
+
+@media (min-width: 768px) and (max-width: 991px){
+	#chicken {
+		width: 48.5% ;
+	}
+	#beef {
+		width: 48.5% ;
+		clear: right;
+	}
+	#susy {
+		width: 98% ;
+	}
+}
+@media (max-width: 767px) {
+			div {
+				width: 98%;
+
+			
+		}		
+
+}
