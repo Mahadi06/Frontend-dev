@@ -8,48 +8,107 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+            crossorigin="anonymous" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#">Food, LLC</a>
+            <button class="navbar-toggler toogler-btn" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class=""><i class="fas fa-bars"></i></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item visible-xs">
+                        <a class="nav-link " href="#chicken">Chicken <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                        <a class="nav-link " href="#beef">Beef</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                        <a class="nav-link " href="#sushi">Sushi</a>
                     </li>
+
+
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
             </div>
         </nav>
+        <h1 class="our-menu text-center my-3">Our Menu</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12  mb-4" id="chicken">
+                    <div class="card menu-item">
+                        <h3 class="text-center">Chicken</h3>
+                        <p class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, recusandae
+                            quisquam? Vel
+                            tempora
+                            iure id distinctio ducimus. Ut nobis possimus soluta velit excepturi? Eum dignissimos
+                            voluptate
+                            dolorem esse excepturi eligendi quos nesciunt asperiores sed animi sit veritatis,
+                            accusantium,
+                            eaque, recusandae ad sunt porro inventore magnam quae doloribus nulla magni! Tempora
+                            consequatur
+                            enim, delectus vitae libero nobis velit consequuntur perferendis ipsa odit. Cumque provident
+                            deserunt esse sed iure suscipit amet? Voluptatibus, a molestias. Harum culpa similique amet
+                            pariatur, distinctio dolores exercitationem omnis dolor fugiat, ab sint! Cumque, eos itaque
+                            dolorem magni, hic velit, modi esse in et iste neque necessitatibus inventore.</p>
+                        <a href="#" class="">Back To Top</a>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 mb-4" id="beef">
+                    <div class="card menu-item">
+                        <h3 class="text-center">Beef</h3>
+                        <p class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, recusandae
+                            quisquam? Vel
+                            tempora
+                            iure id distinctio ducimus. Ut nobis possimus soluta velit excepturi? Eum dignissimos
+                            voluptate
+                            dolorem esse excepturi eligendi quos nesciunt asperiores sed animi sit veritatis,
+                            accusantium,
+                            eaque, recusandae ad sunt porro inventore magnam quae doloribus nulla magni! Tempora
+                            consequatur
+                            enim, delectus vitae libero nobis velit consequuntur perferendis ipsa odit. Cumque provident
+                            deserunt esse sed iure suscipit amet? Voluptatibus, a molestias. Harum culpa similique amet
+                            pariatur, distinctio dolores exercitationem omnis dolor fugiat, ab sint! Cumque, eos itaque
+                            dolorem magni, hic velit, modi esse in et iste neque necessitatibus inventore.</p>
+                        <a href="#" class="">Back To Top</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 mb-4" id="sushi">
+                    <div class="card menu-item">
+                        <h3 class="text-center">Sushi</h3>
+
+                        <p class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, recusandae
+                            quisquam? Vel
+                            tempora
+                            iure id distinctio ducimus. Ut nobis possimus soluta velit excepturi? Eum dignissimos
+                            voluptate
+                            dolorem esse excepturi eligendi quos nesciunt asperiores sed animi sit veritatis,
+                            accusantium,
+                            eaque, recusandae ad sunt porro inventore magnam quae doloribus nulla magni! Tempora
+                            consequatur
+                            enim, delectus vitae libero nobis velit consequuntur perferendis ipsa odit. Cumque provident
+                            deserunt esse sed iure suscipit amet? Voluptatibus, a molestias. Harum culpa similique amet
+                            pariatur, distinctio dolores exercitationem omnis dolor fugiat, ab sint! Cumque, eos itaque
+                            dolorem magni, hic velit, modi esse in et iste neque necessitatibus inventore.</p>
+                        <a href="#" class="">Back To Top</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

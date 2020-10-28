@@ -1,0 +1,47 @@
+.navbar {
+    background: #3d3d3d;
+   
+}
+
+.navbar-brand {
+    color: sandybrown;
+    font-family: 'Permanent Marker', cursive;
+    font-size :1.5rem;
+
+}
+.fa-bars, .nav-link {
+    color: sandybrown;
+}
+.toogler-btn {
+    visibility: hidden;
+    
+}
+.nav-link {
+    font-size :1.2rem;
+    font-weight:500;
+    visibility: hidden;
+}
+h1, h3 {
+    color:  #006266;
+}
+.row p {
+    color: #1B1464;
+    font-size: 1.1rem;
+}
+.menu-item {
+    background: sandybrown;
+}
+.menu-item a {
+    text-decoration: none;
+    color:darkred;
+}
+
+/* media queries */
+@media only screen and (max-width: 767.98px) {
+ 
+}
+@media only screen and (max-width: 575.98px) {
+    .nav-link, .toogler-btn {
+        visibility: visible;
+    }
+}
